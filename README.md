@@ -1,3 +1,7 @@
+#THIS IS NOT AN UPDATE TO 8CHANX!
+
+This is not intended to be a continuance of 8chanX. This is merely a page to quickly install 8chanX on 8kun. The only difference here is the addition of the 8kun domain, and a change of the favcon. The following is the original 8chanX github readme + some changes.
+____
 #![8](https://cdn.rawgit.com/Pashe/8chanX/2-0_pure/images/logo.svg)chanX 2.0 Pure
 #[Click here to install](https://github.com/SlippingGitty/8chanX/raw/2-0_pure/8chan-x.user.js)
 
