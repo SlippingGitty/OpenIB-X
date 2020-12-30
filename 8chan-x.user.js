@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name        Pashe's 8kunX v2 [pure]
+// @name        8chanX for 8kun
 // @version     2.1.0
-// @description Small userscript to improve 8chan
+// @description Small userscript to improve 8kun
 // @icon        https://raw.githubusercontent.com/SlippingGitty/8chanX-for-8kun/2-0_pure/images/logo.png
 // @namespace   https://github.com/SlippingGitty/8chanX-for-8kun/tree/2-0
 // @updateURL   https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8chan-x.meta.js
