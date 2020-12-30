@@ -14,6 +14,8 @@
 // @require     https://raw.githubusercontent.com/samsonjs/strftime/master/strftime.js
 
 // @match       *://8kun.top/*
+// @match       *://sys.8kun.top/*
+// @match       *://media.8kun.top/*
 // @exclude     *.json
 // @exclude     *.txt
 // ==/UserScript==
