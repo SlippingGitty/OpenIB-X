@@ -2,10 +2,10 @@
 // @name        Pashe's 8kunX v2 [pure]
 // @version     2.1.0
 // @description Small userscript to improve 8chan
-// @icon        https://cdn.rawgit.com/SlippingGitty/8chanX/2-0_pure/images/logo.svg
-// @namespace   https://github.com/SlippingGitty/8chanX/tree/2-0
-// @updateURL   https://github.com/SlippingGitty/8chanX/raw/2-0_pure/8chan-x.meta.js
-// @downloadURL https://github.com/SlippingGitty/8chanX/raw/2-0_pure/8chan-x.user.js
+// @icon        https://cdn.rawgit.com/SlippingGitty/8chanX-for-8kun/2-0_pure/images/logo.svg
+// @namespace   https://github.com/SlippingGitty/8chanX-for-8kun/tree/2-0
+// @updateURL   https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8chan-x.meta.js
+// @downloadURL https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8chan-x.user.js
 // @grant       none
 
 // @require     https://code.jquery.com/ui/1.11.2/jquery-ui.min.js
