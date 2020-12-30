@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name        Pashe's 8kunX v2 [pure]
-// @version     2.0.0.1511219830
+// @version     2.1.0
 // @description Small userscript to improve 8chan
-// @icon        https://cdn.rawgit.com/Pashe/8chanX/2-0_pure/images/logo.svg
-// @namespace   https://github.com/Pashe/8chanX/tree/2-0
-// @updateURL   https://github.com/Pashe/8chanX/raw/2-0_pure/8chan-x.meta.js
-// @downloadURL https://github.com/Pashe/8chanX/raw/2-0_pure/8chan-x.user.js
+// @icon        https://cdn.rawgit.com/SlippingGitty/8chanX/2-0_pure/images/logo.svg
+// @namespace   https://github.com/SlippingGitty/8chanX/tree/2-0
+// @updateURL   https://github.com/SlippingGitty/8chanX/raw/2-0_pure/8chan-x.meta.js
+// @downloadURL https://github.com/SlippingGitty/8chanX/raw/2-0_pure/8chan-x.user.js
 // @grant       none
 
 // @require     https://code.jquery.com/ui/1.11.2/jquery-ui.min.js
@@ -13,14 +13,6 @@
 // @require     https://raw.githubusercontent.com/rmm5t/jquery-timeago/master/jquery.timeago.js
 // @require     https://raw.githubusercontent.com/samsonjs/strftime/master/strftime.js
 
-// @match       *://hatechan.co/*
-// @match       *://8chan.co/*
-// @match       *://h.8chan.co/*
-// @match       *://h.8ch.net/*
-// @match       *://jp.8chan.co/*
-// @match       *://jp.8ch.net/*
-// @match       *://sys.8ch.net/*
-// @match       *://8ch.net/*
 // @match       *://8kun.top/*
 // @exclude     *.json
 // @exclude     *.txt
@@ -33,6 +25,7 @@
 ** 7185
 ** anonish
 ** Pashe
+** SlippingGitty
 */
 
 function chxErrorHandler(e, section) {
