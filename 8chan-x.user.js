@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Pashe's 8chanX v2 [pure]
+// @name        Pashe's 8kunX v2 [pure]
 // @version     2.0.0.1511219830
 // @description Small userscript to improve 8chan
 // @icon        https://cdn.rawgit.com/Pashe/8chanX/2-0_pure/images/logo.svg
@@ -21,6 +21,7 @@
 // @match       *://jp.8ch.net/*
 // @match       *://sys.8ch.net/*
 // @match       *://8ch.net/*
+// @match       *://8kun.top/*
 // @exclude     *.json
 // @exclude     *.txt
 // ==/UserScript==
