@@ -4,16 +4,6 @@ One version is just the original 8chanX script with small branding adjustments, 
 
 ____
 
-# ![8](https://raw.githubusercontent.com/SlippingGitty/8chanX-for-8kun/2-0_pure/images/logo.png)kunX 2021.01.18.01  [Click here to install](https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8kunX.user.js) (New 2021)
-
-Current New Features: 
- * Removes the new 8Kun legal garbage
- * Replaces logo and favicon with old one
- * Many other poorly written hacks
-
-# ![8](https://raw.githubusercontent.com/SlippingGitty/8chanX-for-8kun/2-0_pure/images/logo.png)kunX 2.0 Pure [Click here to install](https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8kun-x.user.js) (Original 2016)
-
-
 ***
 
 This userscript adds various features and options like:
@@ -25,6 +15,17 @@ This userscript adds various features and options like:
  * Notifications
  * Relative post dates
  * Post and image counts in the menu
+
+
+# ![8](https://raw.githubusercontent.com/SlippingGitty/8chanX-for-8kun/2-0_pure/images/logo.png)kunX 2021.01.18.01  [Click here to install](https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8kunX.user.js) (New 2021)
+
+Current New Features: 
+ * Removes the new 8Kun legal garbage
+ * Replaces logo and favicon with old one
+ * Many other poorly written hacks
+
+# ![8](https://raw.githubusercontent.com/SlippingGitty/8chanX-for-8kun/2-0_pure/images/logo.png)kunX 2.0 Pure [Click here to install](https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8kun-x.user.js) (Original 2016)
+
 
 ***
 
