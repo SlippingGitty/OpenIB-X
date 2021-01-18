@@ -1,9 +1,3 @@
-# THERE ARE TWO VERSIONS OF THIS SCRIPT
-
-One version is just the original 8chanX script with small branding adjustments, but with no additions. The other version is intended to serve as continuance.
-
-***
-
 This userscript adds various features and options like:
  * Gallery
  * Filters
@@ -21,8 +15,6 @@ Current New Features:
  * Removes the new 8Kun legal garbage
  * Replaces logo and favicon with old one
  * Many other poorly written hacks
-
-# ![8](https://raw.githubusercontent.com/Pashe/8chanX/2-0_pure/images/logo.png)chanX [Click here to install](https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8kun-x.user.js) (Original 2016)
 
 ***
 
