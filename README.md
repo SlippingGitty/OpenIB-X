@@ -16,15 +16,8 @@ This userscript adds various features and options like:
  * Notifications
  * Relative post dates
  * Post and image counts in the menu
-
-This is a userscript, you will need an addon to run it properly
-
-Browser|Addon
-----   |----
-Firefox|[Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
-Chrome |[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-
-####Key bindings
+ 
+ ####Key bindings
 Key     | Function
 ----    | ----
 C       | Navigates to the catalog
@@ -33,3 +26,10 @@ G       | Toggles the gallery
 Q       | Opens the quick reply
 R       | Update thread/reload page
 Esc     | Closes the quick reply, gallery, or expanded gallery image
+
+This is a userscript, you will need an addon to run it properly
+
+Browser|Addon
+----   |----
+Firefox|[Violentmonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
+Chrome |[Violentmonkey](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
