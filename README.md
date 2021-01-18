@@ -1,10 +1,19 @@
-# THIS IS NOT AN UPDATE TO 8CHANX!
+# THERE ARE TWO VERSIONS OF THIS SCRIPT
 
-This is not intended to be a continuance of 8chanX. This is merely a page to quickly install 8chanX on 8kun. The only difference here is the addition of the 8kun domain, and a change of the favcon. The following is the original 8chanX github readme + some minor changes.
+One version is just the original 8chanX script with small branding adjustments, but with no additions. The other version is intended to serve as continuance.
+
 ____
-# ![8](https://raw.githubusercontent.com/SlippingGitty/8chanX-for-8kun/2-0_pure/images/logo.png)kunX 2.0 Pure [Click here to install](https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8kun-x.user.js)
 
-This branch removes a few features in order to improve compatibility. You should not use this branch if [2.0](https://github.com/Pashe/8chanX/tree/2-0) works for you.
+# ![8](https://raw.githubusercontent.com/SlippingGitty/8chanX-for-8kun/2-0_pure/images/logo.png)kunX 2021.01.18.01  [Click here to install](https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8kunX.user.js) (New 2021)
+
+Current New Features: 
+ * Removes the new 8Kun legal garbage
+ * Replaces logo and favicon with old one
+ * Many other poorly written hacks
+
+# ![8](https://raw.githubusercontent.com/SlippingGitty/8chanX-for-8kun/2-0_pure/images/logo.png)kunX 2.0 Pure [Click here to install](https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8kun-x.user.js) (Original 2016)
+
+
 ***
 
 This userscript adds various features and options like:
@@ -16,8 +25,9 @@ This userscript adds various features and options like:
  * Notifications
  * Relative post dates
  * Post and image counts in the menu
- * Many other poorly written hacks
- * Not as dead as tux's version
+
+***
+
 
 This is a userscript, you will need an addon to run it properly
 
