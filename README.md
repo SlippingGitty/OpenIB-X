@@ -17,7 +17,7 @@ This userscript adds various features and options like:
  * Relative post dates
  * Post and image counts in the menu
  
- ####Key bindings
+Key bindings
 Key     | Function
 ----    | ----
 C       | Navigates to the catalog
