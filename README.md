@@ -2,7 +2,7 @@
 
 Current New Features: 
  * Removes the new 8Kun legal garbage
- * Replaces logo and favicon with old one
+ * Replaces logo and favicon with a oldish-new one
  * Many other poorly written hacks
 
 ***
