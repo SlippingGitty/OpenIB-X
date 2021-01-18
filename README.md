@@ -3,7 +3,6 @@
 Current New Features: 
  * Removes the new 8Kun legal garbage [forked from here](https://github.com/4FK/8kun-disclaimer-hider)
  * Replaces logo and favicon with a oldish-new one
- * Many other poorly written hacks
 
 ***
 
@@ -16,6 +15,7 @@ This userscript adds various features and options like:
  * Notifications
  * Relative post dates
  * Post and image counts in the menu
+ * Many other poorly written hacks
  
 Key bindings
 Key     | Function
