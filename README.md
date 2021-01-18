@@ -1,7 +1,7 @@
 # ![8](https://raw.githubusercontent.com/SlippingGitty/8chanX-for-8kun/2-0_pure/images/logo.png)kunX 2021.01.18.01  [Click here to install](https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8kunX.user.js)
 
 Current New Features: 
- * Removes the new 8Kun legal garbage
+ * Removes the new 8Kun legal garbage [forked from here](https://github.com/4FK/8kun-disclaimer-hider)
  * Replaces logo and favicon with a oldish-new one
  * Many other poorly written hacks
 
