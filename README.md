@@ -22,7 +22,7 @@ Current New Features:
  * Replaces logo and favicon with old one
  * Many other poorly written hacks
 
-# ![8](https://raw.githubusercontent.com/SlippingGitty/8chanX-for-8kun/2-0_pure/images/logo.png)kunX 2.0 Pure [Click here to install](https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8kun-x.user.js) (Original 2016)
+# ![8](https://raw.githubusercontent.com/Pashe/8chanX/2-0_pure/images/logo.png)chanX [Click here to install](https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8kun-x.user.js) (Original 2016)
 
 
 ***
