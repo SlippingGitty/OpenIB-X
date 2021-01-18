@@ -5,7 +5,7 @@
 // @icon        https://raw.githubusercontent.com/SlippingGitty/8KunX/2-0_pure/images/logo2.png
 // @namespace   https://github.com/SlippingGitty/8KunX/tree/2-0
 // @updateURL   https://github.com/SlippingGitty/8KunX/raw/2-0_pure/8kun-x.meta.js
-// @downloadURL https://github.com/SlippingGitty/8KunX/blob/2-0_pure/8kun-x.user.js
+// @downloadURL https://github.com/SlippingGitty/8KunX/blob/2-0_pure/8kunX.user.js
 // @grant       none
 
 // @require     https://code.jquery.com/ui/1.11.2/jquery-ui.min.js
