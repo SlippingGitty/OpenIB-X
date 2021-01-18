@@ -2,8 +2,6 @@
 
 One version is just the original 8chanX script with small branding adjustments, but with no additions. The other version is intended to serve as continuance.
 
-____
-
 ***
 
 This userscript adds various features and options like:
