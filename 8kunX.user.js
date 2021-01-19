@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        8KunX
-// @version     2021.01.18.01
+// @version     2021.01.18.02
 // @description Small userscript to improve 8kun
 // @icon        https://raw.githubusercontent.com/SlippingGitty/8KunX/2-0_pure/images/logo2.png
 // @namespace   https://github.com/SlippingGitty/8KunX/tree/2-0
@@ -445,10 +445,10 @@ var RISProviders = {
 		"urlFormat" : "https://www.tineye.com/search/?url=%s",
 		"name"      : "TinEye"
 	},
-	"harrylu": {
-		"urlFormat" : "https://iqdb.harry.lu/?url=%s",
-		"name"      : "Harry.lu (e621)",
-		"shortName" : "E"
+	"yandex": {
+		"urlFormat" : "https://yandex.com/images/search?rpt=imageview&url=%s",
+		"name"      : "Yandex",
+		"shortName" : "Y"
 	},
 	"karmadecay": {
 		"urlFormat" : "http://karmadecay.com/%s",
@@ -457,8 +457,7 @@ var RISProviders = {
 };
 
 var RISProvidersBoards = {
-	"##ALL": ["google", "iqdb", "saucenao", "tineye", "karmadecay"],
-	"furry": ["harrylu"],
+	"##ALL": ["google", "iqdb", "saucenao", "tineye", "karmadecay","yandex"],
 };
 
 function addRISLinks(image) { //Pashe, 7185, WTFPL
