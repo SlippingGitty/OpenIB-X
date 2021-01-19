@@ -2,8 +2,8 @@
 
 Current New Features: 
  * Yandex reverse image support added 
- * Removes the new 8Kun legal garbage [forked from here](https://github.com/4FK/8kun-disclaimer-hider)
- * Replaces logo and favicon with a oldish-new one
+ * Removed the new 8Kun legal garbage [forked from here](https://github.com/4FK/8kun-disclaimer-hider)
+ * Replaced logo and favicon with a oldish-new one
 
 ***
 
