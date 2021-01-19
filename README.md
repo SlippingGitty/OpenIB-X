@@ -3,6 +3,7 @@
 Current New Features: 
  * Yandex reverse image support added 
  * Removed the new 8Kun legal garbage [forked from here](https://github.com/4FK/8kun-disclaimer-hider)
+ * Rided of the bitcoin ad
  * Merged marktaiwan's [8kun formating tools](https://github.com/marktaiwan/8kun-Formatting-Tools)
  * Replaced logo and favicon with a oldish-new one
 
