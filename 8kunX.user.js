@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        8KunX
-// @version     2021.01.18.03
+// @version     2021.01.18.04
 // @description Small userscript to improve 8kun
 // @icon        https://raw.githubusercontent.com/SlippingGitty/8KunX/2-0_pure/images/logo2.png
 // @namespace   https://github.com/SlippingGitty/8KunX/tree/2-0
@@ -1607,3 +1607,29 @@ window.addEventListener('load', function() {
     document.head.appendChild(clone);
 }, false);
 
+///////////////////
+//HIDE BITCOIN AD
+//////////////////
+
+(function() {var css = ["/* Hide Crypto Ad */",
+".thread_ads {",
+"    display: none;",
+"}"
+].join("\n");
+if (typeof GM_addStyle != 'undefined') {
+ GM_addStyle(css);
+ } else if (typeof PRO_addStyle != 'undefined') {
+ PRO_addStyle(css);
+ } else if (typeof addStyle != 'undefined') {
+ addStyle(css);
+ } else {
+ var node = document.createElement('style');
+ node.type = 'text/css';
+ node.appendChild(document.createTextNode(css));
+ var heads = document.getElementsByTagName('head');
+ if (heads.length > 0) { heads[0].appendChild(node);
+ } else {
+ // no head yet, stick it whereever
+ document.documentElement.appendChild(node);
+ }
+}})();
