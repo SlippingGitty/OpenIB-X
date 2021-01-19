@@ -30,7 +30,7 @@ Q       | Opens the quick reply
 R       | Update thread/reload page
 Esc     | Closes the quick reply, gallery, or expanded gallery image
 
-This is a userscript, you will need an addon to run it properly
+This is a userscript, you will need an addon to run it properly:
 
 Browser|Addon
 ----   |----
