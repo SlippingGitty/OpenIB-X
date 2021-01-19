@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        8KunX
-// @version     2021.01.18.02
+// @version     2021.01.18.01
 // @description Small userscript to improve 8kun
 // @icon        https://raw.githubusercontent.com/SlippingGitty/8KunX/2-0_pure/images/logo2.png
 // @namespace   https://github.com/SlippingGitty/8KunX/tree/2-0
@@ -450,14 +450,10 @@ var RISProviders = {
 		"name"      : "Yandex",
 		"shortName" : "Y"
 	},
-	"karmadecay": {
-		"urlFormat" : "http://karmadecay.com/%s",
-		"name"      : "Karma Decay"
-	},
 };
 
 var RISProvidersBoards = {
-	"##ALL": ["google", "iqdb", "saucenao", "tineye", "karmadecay","yandex"],
+	"##ALL": ["google", "yandex", "iqdb", "saucenao", "tineye"],
 };
 
 function addRISLinks(image) { //Pashe, 7185, WTFPL
