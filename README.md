@@ -1,4 +1,4 @@
-# ![8](https://raw.githubusercontent.com/SlippingGitty/8chanX-for-8kun/2-0_pure/images/logo.png)kunX 2021.01.18.01  [Click here to install](https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8kunX.user.js)
+# ![8](https://raw.githubusercontent.com/SlippingGitty/8chanX-for-8kun/2-0_pure/images/logo.png)kunX 2021.01.18.02  [Click here to install](https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8kunX.user.js)
 
 Current New Features: 
  * Yandex reverse image support added 
