@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        8KunX
-// @version     2021.01.18.04
+// @version     2021.04.03.01
 // @description Small userscript to improve 8kun
 // @icon        https://raw.githubusercontent.com/SlippingGitty/8KunX/2-0_pure/images/logo2.png
 // @namespace   https://github.com/SlippingGitty/8KunX/tree/2-0
@@ -16,6 +16,8 @@
 // @match       *://8kun.top/*
 // @match       *://sys.8kun.top/*
 // @match       *://media.8kun.top/*
+// @match       *://lolifox.club/*
+// @match       *://coronachan.xyz/*
 // @exclude     *.json
 // @exclude     *.txt
 // ==/UserScript==
