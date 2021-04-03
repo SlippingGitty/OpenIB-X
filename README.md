@@ -1,4 +1,7 @@
-# ![8](https://raw.githubusercontent.com/SlippingGitty/8chanX-for-8kun/2-0_pure/images/logo.png)kunX 2021.01.18.04  [Click here to install](https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8kunX.user.js)
+# ![8](https://raw.githubusercontent.com/SlippingGitty/8chanX-for-8kun/2-0_pure/images/logo.png)kunX 2021.04.03.01  [Click here to install](https://github.com/SlippingGitty/8chanX-for-8kun/raw/2-0_pure/8kunX.user.js)
+
+Change log April 3rd: 
+* coronachan.xyz support
 
 Current New Features: 
  * Yandex reverse image support added 
@@ -6,6 +9,7 @@ Current New Features:
  * Rided of the bitcoin ad
  * Merged marktaiwan's [8kun formating tools](https://github.com/marktaiwan/8kun-Formatting-Tools)
  * Replaced logo and favicon with a oldish-new one
+ * Promises to add support for other ViChan/OpenIB forks
 
 ***
 
