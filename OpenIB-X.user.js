@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        OpenIB-X
-// @version     2021.04.04.02
+// @version     2021.04.04.03
 // @description An enhancement suite for OpenIB sites
 // @icon        https://raw.githubusercontent.com/SlippingGitty/OpenIB-X/2-0_pure/images/OpenIB-X.png
 // @namespace   https://github.com/SlippingGitty/OpenIB-X/tree/2-0
@@ -22,6 +22,9 @@
 // @match       *://coronachan.xyz/*
 // @match       *://sys.coronachan.exy/*
 // @match       *://media.coronachan.xyz/*
+// @match       *://leftypol.org/*
+// @match       *://sys.leftypol.org/*
+// @match       *://media.leftypol.org/*
 // @exclude     *.json
 // @exclude     *.txt
 // ==/UserScript==
@@ -1165,11 +1168,6 @@ function initDefaultSettings() { //Pashe, WTFPL
 	if (window.localStorage.imageHover === undefined) window.localStorage.imageHover = true;
 }
 
-function initFavicon() { //Pashe, WTFPL
-	var faviconUrl = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAFo9M/3AAAAAXNSR0IArs4c6QAAAeNJREFUOMu9kk1IVGEUhp/3jj8zukiYIGkh6iftwzZGaw1EqJW5KAxsvhmFgta1DGpRGTF35g5EURBGQRuJqG21iCKIaOUVCqHdYIU/k849LXIMEymCenbncM7hvO85sIF6fTgv6GELfb44qc0gFz6wwN4D4Hxo7MRmi/PhQ+BIU1++NKSkvpjALoAmM3tsCp7H0eShHec4Xzzs8uEFAPXnouZF1b8BYHyIK4UekDW2aVpU/Q3YsTiautc9Wezcm6tkMkHpOEmyP45+6vh7UttTJpfrPJ89MLJWfT27sK3A5fc8NXgFdifbP/xFzoezwPAPnzQWlwszAPty0e666h/lfGiNbZ0vvgANSDphZlfMdDlojO4ev5nGgpla22pbYjZo0sn5SuGinC9Ng50BMEt1zFf8Z/4rv7W6e/xqR6q15RFoYIuZcG0uKpxVI+714VEZgya1S3pWy6zcTpbalSGZWCe439xaq85dP10D6PXFMaG7wLvA+fCc86VEUlnirbBZzEZal9PLGdWXCGy0hbWuRjNAEGhp47vScj5cAdK19Zbswo2J6raz58ujmF0Cun5RfyuuZifkfJgDIuArsmlLgk8SQ8jaMavG0dToH5noThUPktIwiVYV8HKunH/SePx/ynf5T8EXjP2zGwAAAABJRU5ErkJggg==";
-	$('<link></link>').attr("rel", "shortcut icon").attr("href", faviconUrl).appendTo($("head").first());
-}
-
 function initFlagIcons() { //Anon from >>>/tech/60489, presumably WTFPL or similar
 	if (!$("#user_flag").length) {return;}
 	
@@ -1239,7 +1237,6 @@ $(window.document).ready(function() { try {
 	initFlagIcons();
 	initKeyboardShortcuts();
 	initpurgeDeadFavorites();
-	initFavicon();
 } catch(e) {chxErrorHandler(e, "ready");}});
 
 ////////////////
