@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name        8KunX
-// @version     2021.04.04.01
-// @description Small userscript to improve 8kun
-// @icon        https://raw.githubusercontent.com/SlippingGitty/8KunX/2-0_pure/images/logo2.png
-// @namespace   https://github.com/SlippingGitty/8KunX/tree/2-0
-// @updateURL   https://github.com/SlippingGitty/8KunX/raw/2-0_pure/8kun-x.meta.js
-// @downloadURL https://github.com/SlippingGitty/8KunX/blob/2-0_pure/8kunX.user.js
+// @name        OpenIB-X
+// @version     2021.04.04.02
+// @description An enhancement suite for OpenIB sites
+// @icon        https://raw.githubusercontent.com/SlippingGitty/OpenIB-X/2-0_pure/images/OpenIB-X.png
+// @namespace   https://github.com/SlippingGitty/OpenIB-X/tree/2-0
+// @updateURL   https://github.com/SlippingGitty/OpenIB-X/raw/2-0_pure/OpenIB-X.meta.js
+// @downloadURL https://github.com/SlippingGitty/OpenIB-X/blob/2-0_pure/OpenIB-X.user.js
 // @grant       none
 
 // @require     https://code.jquery.com/ui/1.11.2/jquery-ui.min.js
@@ -17,7 +17,11 @@
 // @match       *://sys.8kun.top/*
 // @match       *://media.8kun.top/*
 // @match       *://lolifox.club/*
+// @match       *://sys.lolifox.club/*
+// @match       *://media.lolifox.club/*
 // @match       *://coronachan.xyz/*
+// @match       *://sys.coronachan.exy/*
+// @match       *://media.coronachan.xyz/*
 // @exclude     *.json
 // @exclude     *.txt
 // ==/UserScript==
@@ -55,7 +59,7 @@ function chxErrorHandler(e, section) {
 	};
 	
 	console.error(sprintf(
-		"8kunX experienced an error. Please include the following information with your report:\n"+
+		"OpenIB-X experienced an error. Please include the following information with your report:\n"+
 		"[code]%s in %s/%s @ L%s C%s: %s\n\nVersion: %s (2-0_pure@%s)\nGreasemonkey: %s\nActive page: %s\nBrowser: %s\nUser agent: %s\nLocation: %s\nStack:\n%s[/code]",
 		rptObj.name, rptObj.file, rptObj.section, rptObj.line, rptObj.col, rptObj.msg,
 		rptObj.scriptName, rptObj.scriptVersion,
@@ -67,7 +71,7 @@ function chxErrorHandler(e, section) {
 		rptObj.stack
 	));
 	
-	alert("8kunX experienced an error. Check the console for details (typically F12).");
+	alert("OpenIB-X experienced an error. Check the console for details (typically F12).");
 }
 
 try {
@@ -96,11 +100,11 @@ var thisBoardSettings;
 var settingsMenu = window.document.createElement('div');
 
 if (window.Options) {
-	var tab = window.Options.add_tab('8kunX', 'times', '8kunX');
+	var tab = window.Options.add_tab('OpenIB-X', 'times', 'OpenIB-X');
 	$(settingsMenu).appendTo(tab.content);
 }
 
-settingsMenu.innerHTML = sprintf('<span style="font-size:8pt;">8kunX %s pure</span>', GM_info.script.version)
+settingsMenu.innerHTML = sprintf('<span style="font-size:8pt;">OpenIB-X %s pure</span>', GM_info.script.version)
 + '<div style="overflow:auto;height:100%;">' //General
 + '<label><input type="checkbox" name="catalogLinks">' + 'Force catalog links' + '</label><br>'
 + '<label><input type="checkbox" name="revealImageSpoilers">' + 'Reveal image spoilers' + '</label><br>'
@@ -738,7 +742,7 @@ function runFilter() { //Pashe, WTFPL
 	};
 	
 	if (thisPost.trip == "!!tKlE5XtNKE") {
-		$this.find("span.trip").after($(' <span class="capcode" title="Green is my pepper; I shall not want."><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAFo9M/3AAADgUlEQVQ4y2VTbUyTVxS+VZaYqMtcHFHjZCEbsgwR2jS0EKCLSJnMSoGy0toKFUvpB/TjpX37SfuuDChSJlTHqiIBqTJF14JMous0hERj5uIPib+XLCbLsvhj/tig58y+Vea28+e55z7POffce88hhnYBWTf9aTGyi/H5oxxidYqhN65AgohkONmJsR/7UqFkK5KW3Pc2uFtK0KYqxsC1I5mY3mjbdBpP3dUQYjhfe6adKk11aAtWgzfV24lJJ3xumZCCbkwEgcQxHpFtyv6IYg6AdVAE5HUzqHkl3pnmv05FtD+Pzh79I733xW1JhjSPHP6zc1wF1C0tMBc9EFp2QexhFMOLlsPEINmfpSvNp3y28rVuXyXQ9jIwh8uh53oT9sw07yU7Xh5hE7wPDlkxnsjd8VjJ24WOuEr8EAczpKm3hvMCOFNL4UnyX6Of2Uh9ffHbodGGkZNJGp2t+c+iTxh/mpt9/Cgj8sw1o93fAENJLQwndCmbpwC/XLYlWPKEQyjqnlJj17VWmHg0A4pRIXy78h2MLbkz76iXFJY7nFXY0V8NrqsKVIcE4LksTTEJxdP1OixqPrroCvCOfAomqgjs56tTzJx6ZV1gqih4QnWVgd1XgZ3qfeiI1a72XpGOZcj8PNKwdYvWJd6HXjn3qSp7G2q6uL//77rGOdW/fN+5puGRW67fZqeCtQOSd7iJCzL+Ky50r4NFZkFKiC5yaGPaUQTLiuwx+dLns/pfKXc9aiyl2H/HjOM/MOgIiZEO1+BQRIIDicZz3tvynWwj3VRuYDMdc1bm0DH5T3RcifbpxjXn9Gfgnm8B5no70KMycE3UgW9CBgM3jqeiD4IYvR/C/sX2g+vltqkLj3R6qpA+24q2sxowTirAGtfAV/fPoOeSBRv7+GD6RgbhpBci35vx5KIG+260/ZPARHZuNTZz5x1GITr1glWbpwKsQ2LwTcrByohAz/DBEhGB40JNynu1HgNx5YrvinovG9xRnJeVxuN7cg6Z67jPe4xlSOsESL1oSzoggm6LEIw0H6ivP0HntGTNn2jC4IJy2X+pbhebQLrlLc7LQt7Q5O2565QWodMgBLr/ILjdlUh9/CF28XKQsvKw+3I1Oi7W/BIYrCpMB/gna9kPIK+NN5G+udkr274NdB+8i/b9uRYeIbtFWVmnSzkbF0o2bT7wSsfNzmPxb3jllxw700zlAAAAAElFTkSuQmCC" style="width:16px;height:16px;" /> 8kunX</span>'));
+		$this.find("span.trip").after($(' <span class="capcode" title="Green is my pepper; I shall not want."><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAFo9M/3AAADgUlEQVQ4y2VTbUyTVxS+VZaYqMtcHFHjZCEbsgwR2jS0EKCLSJnMSoGy0toKFUvpB/TjpX37SfuuDChSJlTHqiIBqTJF14JMous0hERj5uIPib+XLCbLsvhj/tig58y+Vea28+e55z7POffce88hhnYBWTf9aTGyi/H5oxxidYqhN65AgohkONmJsR/7UqFkK5KW3Pc2uFtK0KYqxsC1I5mY3mjbdBpP3dUQYjhfe6adKk11aAtWgzfV24lJJ3xumZCCbkwEgcQxHpFtyv6IYg6AdVAE5HUzqHkl3pnmv05FtD+Pzh79I733xW1JhjSPHP6zc1wF1C0tMBc9EFp2QexhFMOLlsPEINmfpSvNp3y28rVuXyXQ9jIwh8uh53oT9sw07yU7Xh5hE7wPDlkxnsjd8VjJ24WOuEr8EAczpKm3hvMCOFNL4UnyX6Of2Uh9ffHbodGGkZNJGp2t+c+iTxh/mpt9/Cgj8sw1o93fAENJLQwndCmbpwC/XLYlWPKEQyjqnlJj17VWmHg0A4pRIXy78h2MLbkz76iXFJY7nFXY0V8NrqsKVIcE4LksTTEJxdP1OixqPrroCvCOfAomqgjs56tTzJx6ZV1gqih4QnWVgd1XgZ3qfeiI1a72XpGOZcj8PNKwdYvWJd6HXjn3qSp7G2q6uL//77rGOdW/fN+5puGRW67fZqeCtQOSd7iJCzL+Ky50r4NFZkFKiC5yaGPaUQTLiuwx+dLns/pfKXc9aiyl2H/HjOM/MOgIiZEO1+BQRIIDicZz3tvynWwj3VRuYDMdc1bm0DH5T3RcifbpxjXn9Gfgnm8B5no70KMycE3UgW9CBgM3jqeiD4IYvR/C/sX2g+vltqkLj3R6qpA+24q2sxowTirAGtfAV/fPoOeSBRv7+GD6RgbhpBci35vx5KIG+260/ZPARHZuNTZz5x1GITr1glWbpwKsQ2LwTcrByohAz/DBEhGB40JNynu1HgNx5YrvinovG9xRnJeVxuN7cg6Z67jPe4xlSOsESL1oSzoggm6LEIw0H6ivP0HntGTNn2jC4IJy2X+pbhebQLrlLc7LQt7Q5O2565QWodMgBLr/ILjdlUh9/CF28XKQsvKw+3I1Oi7W/BIYrCpMB/gna9kPIK+NN5G+udkr274NdB+8i/b9uRYeIbtFWVmnSzkbF0o2bT7wSsfNzmPxb3jllxw700zlAAAAAElFTkSuQmCC" style="width:16px;height:16px;" /> OpenIB-X</span>'));
 		return;
 	}
 	
