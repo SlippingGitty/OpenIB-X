@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        8KunX
-// @version     2021.04.03.01
+// @version     2021.04.04.01
 // @description Small userscript to improve 8kun
 // @icon        https://raw.githubusercontent.com/SlippingGitty/8KunX/2-0_pure/images/logo2.png
 // @namespace   https://github.com/SlippingGitty/8KunX/tree/2-0
@@ -1597,17 +1597,6 @@ for (let image of document.getElementsByTagName('img')) {
 		}
 	}
 }
-
-////////////////
-//CHANGE FAVCON
-////////////////
-window.addEventListener('load', function() {
-    var favicon = document.querySelector('link[rel~="icon"]');
-    var clone = favicon.cloneNode(!0);
-    clone.href = " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAMUExURQAAAAABAPXBAwAAAHrc0ScAAAAEdFJOU////wBAKqn0AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAARElEQVQoU5WOUQoAIAhD1d3/zs0pQfZTIm6+xDSMeAPunraEwCOCtsXSZLbAVNWVEGhNYs4L6GkP3jvuX2jHHWd8A2ABQ1MCaSrpRPcAAAAASUVORK5CYII=";
-    favicon.parentNode.removeChild(favicon);
-    document.head.appendChild(clone);
-}, false);
 
 ///////////////////
 //HIDE BITCOIN AD
