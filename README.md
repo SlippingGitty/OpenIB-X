@@ -1,4 +1,4 @@
-# ![8](https://raw.githubusercontent.com/SlippingGitty/OpenIB-X/2-0_pure/images/OpenIB-X.png)penIB-X 2021.04.04.03  [Click here to install](https://github.com/SlippingGitty/OpenIB-X/raw/2-0_pure/OpenIB-X.user.js)
+# ![8](https://raw.githubusercontent.com/SlippingGitty/OpenIB-X/2-0_pure/images/OpenIB-X.png)penIB-X 2021.04.07.01  [Click here to install](https://github.com/SlippingGitty/OpenIB-X/raw/2-0_pure/OpenIB-X.user.js)
 
 Change log April 5th:
  * Image hovering has been added for all Vichan/OpenIB sites supported in this script - [Taken from here](https://github.com/OpenIB/OpenIB/blob/master/js/image-hover.js)
