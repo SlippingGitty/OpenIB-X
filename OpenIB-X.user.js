@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        OpenIB-X
-// @version     2021.04.04.03
+// @version     2021.04.07.01
 // @description An enhancement suite for OpenIB sites
 // @icon        https://raw.githubusercontent.com/SlippingGitty/OpenIB-X/2-0_pure/images/OpenIB-X.png
 // @namespace   https://github.com/SlippingGitty/OpenIB-X/tree/2-0
