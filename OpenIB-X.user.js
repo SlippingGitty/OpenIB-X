@@ -16,12 +16,6 @@
 // @match       *://8kun.top/*
 // @match       *://sys.8kun.top/*
 // @match       *://media.8kun.top/*
-// @match       *://lolifox.club/*
-// @match       *://sys.lolifox.club/*
-// @match       *://media.lolifox.club/*
-// @match       *://coronachan.xyz/*
-// @match       *://sys.coronachan.exy/*
-// @match       *://media.coronachan.xyz/*
 // @match       *://leftypol.org/*
 // @match       *://sys.leftypol.org/*
 // @match       *://media.leftypol.org/*
