@@ -6,7 +6,7 @@ Change log April 5th:
 ## Current New Features: 
 
 OpenIB-X:
- * Added coronachan.xyz, lolifox.club, and leftypol.org support
+ * More image board support
  * Yandex reverse image support added 
  * Merged marktaiwan's [formating tools](https://github.com/marktaiwan/8kun-Formatting-Tools)
  * Image hovering for all Vichan/OpenIB sites supported in this script
