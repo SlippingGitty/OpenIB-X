@@ -16,9 +16,6 @@
 // @match       *://8kun.top/*
 // @match       *://sys.8kun.top/*
 // @match       *://media.8kun.top/*
-// @match       *://animeme.cf/*
-// @match       *://sys.animeme.cf/*
-// @match       *://media.animeme.cf/*
 // @match       *://leftypol.org/*
 // @match       *://sys.leftypol.org/*
 // @match       *://media.leftypol.org/*
