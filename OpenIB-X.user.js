@@ -1561,7 +1561,7 @@ $(document).on('ready', function(){
 
 if (window.Options && Options.get_tab('general')) {
 	Options.extend_tab("general", 
-	"<fieldset><legend>Image hover</legend>"
+	"<fieldset><legend>Image Hovering on Other Chan Sites</legend>"
 	+ ("<label class='image-hover' id='imageHover'><input type='checkbox' /> "+_('Image hover')+"</label>")
 	+ ("<label class='image-hover' id='catalogImageHover'><input type='checkbox' /> "+_('Image hover on catalog')+"</label>")
 	+ ("<label class='image-hover' id='imageHoverFollowCursor'><input type='checkbox' /> "+_('Image hover should follow cursor')+"</label>")
